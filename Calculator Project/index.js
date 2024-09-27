@@ -1,11 +1,12 @@
 const display = document.querySelector('.display');
 const buttons = document.querySelectorAll('.buttons');
+console.log(buttons)
 const specialChars = ['%', '*', '/', '-', '+', '='];
 let output = '';
 // Define function to calculate based on button clicked
 const calculate = (btnValue) => {
     if(btnValue === '=' && btnValue !== ''){
-        // if output has '%', replace witj '/100' before evaluating
+        // if output has '%', replace with '/100' before evaluating
         output = eval(output.replace('%', '/100'));
     } else if (btnValue === 'AC'){
         output = ''
