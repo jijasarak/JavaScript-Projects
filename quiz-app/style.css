@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background: #001e4d;
+}
+
+.app{
+  background: #fff;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.app h1{
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+  border-bottom: 30px;
+  text-align: center;
+  background-color: #001e4d;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.quiz{
+  padding: 20px 0;
+}
+
+.quiz h2{
+  font-size: 18px;
+  color: #001e4d;
+  font-weight: 600;
+}
+
+.btn{
+  background: #fff;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover:not([disabled]){
+  background: #222;
+  color: #fff;
+}
+
+.btn:disabled{
+  cursor: not-allowed;
+}
+
+#next-btn{
+  background: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+.correct{
+  background: #9aeabc;
+}
+
+.incorrect{
+  background: #ff9393;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #002147;
+  color: #002147;
+  height: 100vh;
+  width: 100%;
+}
+
+.container{
+  height: 450px;
+  width: 600px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+}
+h1{
+  margin-bottom: 10px;
+}
+
+h1, h2{
+  padding: 20px 15px 10px;
+}
+.container hr{
+  border: 1.6px solid #002147;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.btn{
+  border-radius: 6px;
+  padding: 10px;
+  background: transparent;
+  color: #222;
+  font-weight: 500;
+  border: 1px solid #222;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover{
+  background: #004089ce;
+  color: #fff;
+}
+
+.quiz{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.answer-buttons{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px;
+  gap: 10px;
+}
+
+#next-btn{
+  background-color: #002147;
+  color: white;
+  padding: 10px;
+  font-weight: 500;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 20px auto 0;
+  width: 150px;
+  cursor: pointer;
+  display: none;
+} */
